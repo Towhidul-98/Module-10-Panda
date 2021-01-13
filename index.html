@@ -1,17 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <h1>Hello Everyone</h1>
+  <header class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fw-bolder" href="#">
+          <img src="Images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Shoes">Shoes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Backpack">Backpack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#subscribe">Subscribe</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <!--Js Script-->
-    <script  src="js/bootstrap.bundle.js"></script>
+    <div id="carouselExampleControls" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center">
+              <div>
+                <h1>Mega LCD TV For Sports</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, saepe!</p>
+                <h1>$600</h1>
+                <button type="button" class="btn btn-primary">Buy Now</button>
+
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center">
+              <div>
+                <h1>Cool Dude Headpone</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, quod?</p>
+                <h1>$420</h1>
+                <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-7 d-flex align-items-center">
+              <div>
+                <h1>X-box For Your Living Room</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, sed.</p>
+                <h1>$600</h1>
+                <button type="button" class="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <div class="container px-4 my-5">
+        <div class="row gx-5">
+          <div class="col">
+            <div class="p-3 rounded bg-warning d-flex align-items-center justify-content-evenly">
+              <h1 class="text-white ">Watch</h1>
+              <img src="images/categories/watch.png" alt="" class="">
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="p-3 rounded bg-info d-flex align-items-center justify-content-evenly">
+              <h1 class="text-white">Bag</h1>
+              <img src="Images/categories/bag.png" alt="">
+            </div>
+
+          </div>
+          <div class="col">
+            <div class="p-3 rounded bg-primary d-flex align-items-center justify-content-evenly">
+              <h1 class="text-white">Shoes</h1>
+              <img src="images/categories/shoes.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Shoes" class="my-5">
+      <h1>Shoes</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col rounded-3">
+          <div class="card h-100 shadow">
+            <img src="images/shoes/shoe-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Supple 350</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, aliquam?</p>
+              <h5>$123</h5>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Primary</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col  rounded-3">
+          <div class="card h-100 shadow">
+            <img src="images/shoes/shoe-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nile 360</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illo!</p>
+              <h5>$123</h5>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col  rounded-3">
+          <div class="card h-100 shadow">
+            <img src="images/shoes/shoe-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Airmax</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vitae eligendi
+                blanditiis..</p>
+              <h5>$123</h5>
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Primary</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Backpack" class="my-5">
+      <h1>Backpack</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 ">
+        <div class="col rounded-3">
+          <div class="card h-100 shadow">
+            <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Bag</h5>
+              <h5>$123</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic, aliquam?</p>
+
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Primary</button>
+
+            </div>
+          </div>
+        </div>
+        <div class="col  rounded-3">
+          <div class="card h-100 shadow">
+            <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Blue Bag</h5>
+              <h5>$123</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque, illo!</p>
+
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Buy Now >></button>
+            </div>
+          </div>
+        </div>
+        <div class="col  rounded-3 ">
+          <div class="card h-100 shadow">
+            <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Black Bag</h5>
+              <h5>$123</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vitae eligendi
+                blanditiis..</p>
+
+            </div>
+            <div class="card-footer">
+              <button type="button" class="btn btn-primary">Primary</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="subscribe" style="height:400px" class="d-flex justify-content-center align-items-center bg-info my-5">
+      <div>
+        <h1>LET'S STAY WITH US</h1>
+        <h5>Get updates on sales, specials and more</h5>
+        <input type="text" placeholder="Enter your  name"><br>
+        <button class="btn btn-primary" type="submit">SUBMIT</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="text-center mt-5">
+    <small>©2021. Panda Commerce. All rights reserved. Rafi Bangladesh.</small>
+  </footer>
+
+
+
+
+  <!--Js Script-->
+  <script src="js/bootstrap.bundle.js"></script>
 
 </body>
+
 </html>
